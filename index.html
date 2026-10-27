@@ -12,6 +12,11 @@ td { vertical-align: top; overflow-wrap: anywhere; }
 small { font-size: 11px; color: #555555; }
 a { color: #0000ee; }
 a:visited { color: #551a8b; }
+/* 広い画面では、表を画面の真ん中にぽつんと置く。スマホは左上からのまま */
+@media (min-width: 1024px) and (min-height: 640px) {
+  body { margin: 0; min-height: 100vh; box-sizing: border-box; padding: 16px 0; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+  table.main { width: 600px; }
+}
 </style>
 </head>
 <body>
@@ -37,7 +42,7 @@ a:visited { color: #551a8b; }
 </tr>
 
 <tr>
-<td width="20">&nbsp;</td>
+<td width="20"><img src="img/desktop-touch-mcp.png" width="16" height="16" alt=""></td>
 <td>
 <a href="https://harusame64.github.io/desktop-touch-mcp/"><b>desktop-touch-mcp</b></a><br>
 Windows 用 computer-use MCP サーバー。Claude などの MCP クライアントから、Windows のデスクトップを見て操作させられます。<br>
@@ -77,6 +82,7 @@ GitHub リリースのダウンロード数を可視化するデスクトップ�
 <tr><td><hr size="1" noshade></td></tr>
 <tr><td>
 連絡先: <a href="https://github.com/Harusame64">GitHub (Harusame64)</a><br>
+メール: <a href="mailto:coming-choir3c@icloud.com" style="white-space: nowrap">coming-choir3c@icloud.com</a><br>
 <small>更新 2026.10.27</small>
 </td></tr>
 </table>
