@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://harusame64.github.io/sitemap.xml
+Sitemap: https://harusame64.github.io/pictkura/sitemap.xml
+Sitemap: https://harusame64.github.io/desktop-touch-mcp/sitemap.xml
